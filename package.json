@@ -20,7 +20,12 @@
   "homepage": "https://github.com/janetpiao/Real-Time-Chat-and-Notifications-Tutorial-App#readme",
   "dependencies": {
     "express": "^5.2.1",
+    "socket.io": "^4.8.3",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
+  },
+  "optionalDependencies": {
+    "bufferutil": "*",
+    "utf-8-validate": "*"
   }
 }
